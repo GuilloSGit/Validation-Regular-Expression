@@ -3,8 +3,8 @@
 ## Para validar expresiones regulares
 
 Por ejemplo cuando el usuario (cliente) tiene que llenar un formulario,
-necesitamos hacer correcciones antes de que se envíe le info a la base de datos,
-para evitar errores.
+necesitamos hacer correcciones antes de que se envíe la info a la base de datos,
+para evitar errores. Para eso necesitos las validaciones en la parte del cliente web.
 
 Es muy común en formularios para emails, para tarjetas de crédito, para nombres de usuario, para DNI´s, etc.
 
