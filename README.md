@@ -1,4 +1,4 @@
-# Validation Regular - Expresion
+# Validation Regular - Expression
 
 ## Para validar expresiones regulares
 
