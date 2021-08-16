@@ -1,4 +1,4 @@
-# Validation Regular-Expresion
+# Validation Regular - Expresion
 
 ## Para validar expresiones regulares
 
@@ -12,7 +12,7 @@ Es muy común en formularios para emails, para tarjetas de crédito, para nombre
 
 Ver el siguiente vídeo explicativo
 
-[![Vídeo del canal YouTube de Dorian Desings](https://pbs.twimg.com/profile_images/1298304362045988874/8ogCViWc_400x400.jpg)](https://www.youtube.com/watch?v=W88riRl1vMw)
+[![Vídeo del canal YouTube de Dorian Desings](https://pbs.twimg.com/profile_images/1298304362045988874/8ogCViWc_400x400.jpg)](https://www.youtube.com/watch?v=W88riRl1vMw){:target="_blank"}
 
 Son los vídeos #44 al #47
 
