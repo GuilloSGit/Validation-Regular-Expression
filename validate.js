@@ -77,3 +77,49 @@ const validateCreditCard = (card) => {
     if(creditCardRegex.test(card)) console.log('card válido')
     else console.log('card incorrecto')
 }
+
+this.socialMediaList = [  // Ezequiel Navarta (Gracias!)
+                {
+                    type: "other",
+                    regexp: new RegExp(/[(http(s)?):\/\/(www\.)?a-zA-Z0-9@:%.\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%\+.~#?&//=]*)/),
+                    icon: "fad fa-globe-americas social-icon"
+                }, {
+                    type: "facebook",
+                    regexp: new RegExp(/(?:https?:\/\/)?(?:www\.)?(?:facebook|fb)\.com/),
+                    icon: "fab fa-facebook social-icon"
+                }, {
+                    type: "instagram",
+                    regexp: new RegExp(/(?:https?:\/\/)?(?:www\.)?(?:instagram\.com|instagr\.am)\/([A-Za-z0-9_](?:(?:[A-Za-z0-9_]|(?:\.(?!\.))){0,28}(?:[A-Za-z0-9_]))?)/),
+                    icon: "fab fa-instagram social-icon"
+                }, {
+                    type: "twitter",
+                    regexp: new RegExp(/(?:https?:\/\/)?(?:[A-z]+\.)?twitter\.com\/@?(?!home|sharegexp|privacy|tos)([A-z0-9_]+)\/?/),
+                    icon: "fab fa-twitter social-icon"
+                }, {
+                    type: "youtube",
+                    regexp: new RegExp(/(?:https?:\/\/)?(?:[A-z]+\\.)?youtube.com\/channel\/([A-z0-9-\\_]+)\/?/),
+                    icon: "fab fa-youtube social-icon"
+                }
+];
+
+private esExtensionArchivoPermitida(nombreArchivo:string){ // Manuel Hernandez => https://www.linkedin.com/in/manuel-hernandez-barahona-angular/ (Gracias!)
+    const extensionesPermitidas = [
+      'xlsx','xls',
+      'docx','doc',
+      'pdf','msg',
+      'png','jpg','jpeg']
+
+      return extensionesPermitidas.some( extension => new RegExp(`(\.${extension})$`,'i').test(nombreArchivo))
+}
+
+function removeSpaces (text:string){ // Manuel Hernandez => https://www.linkedin.com/in/manuel-hernandez-barahona-angular/ (Gracias!)
+    return text.replace(/ /g,'');
+}
+
+function removeDots(text:string) { // Manuel Hernandez => https://www.linkedin.com/in/manuel-hernandez-barahona-angular/ (Gracias!)
+    return text.replace(/\./g,'');
+}
+
+function removeHyphens(text:string) { // Manuel Hernandez => https://www.linkedin.com/in/manuel-hernandez-barahona-angular/ (Gracias!)
+    return text.replace(/\-/g,'');
+}
